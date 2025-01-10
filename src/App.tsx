@@ -141,7 +141,10 @@ function App() {
               <h3 className="font-bold text-lg text-orange-800 mb-2">Contact Information</h3>
               <div className="flex items-center space-x-2">
                 <Phone className="w-5 h-5 text-orange-600" />
-                <span className="text-orange-900">6202744741, 6206792203</span>
+                <span className="text-orange-900">
+                  <a href="tel:+916202744741">6202744741</a>, {' '}
+                  <a href="tel:+916206792203">6206792203</a>
+                </span>
               </div>
             </div>
             <div className="bg-orange-50 p-4 rounded-lg">
